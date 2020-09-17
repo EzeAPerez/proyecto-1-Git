@@ -1,0 +1,17 @@
+public class arreglo {
+	protected int []arreglo;
+
+	public arreglo(int[] arre) {
+		arreglo = arre;
+	}
+	
+	public int maximo() {
+		int a = 0;
+		for(int i=0; i<arreglo.length; i++) {
+			if(a<arreglo[i])
+				a=arreglo[i];
+		}
+		
+		return a;
+	}
+}
