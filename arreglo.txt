@@ -1,8 +1,8 @@
 public class arreglo {
 	protected int []arreglo;
 
-	public arreglo(int[] arre) {
-		arreglo = arre;
+	public arreglo(int[] arre1) {
+		arreglo = arre1;
 	}
 	
 	public int maximo() {
